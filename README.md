@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# product-transaction-dashboard
+React Application to track transaction of product from free api.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
