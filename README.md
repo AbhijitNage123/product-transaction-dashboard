@@ -1,6 +1,6 @@
 # Transaction Dashboard Application using MERN
 
-https://github.com/AbhijitNage123/product-transaction-dashboard/Assets/transaction-dashboard-using-MERN.mp4
+To see demo open video from Assets folder.
 
 ---
 
