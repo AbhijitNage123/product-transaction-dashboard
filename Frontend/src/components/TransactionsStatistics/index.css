@@ -1,0 +1,59 @@
+/* Statistics container styling */
+.transactions-statistics {
+    background-color: #f9f9f9;
+    padding: 20px;
+    /* border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+    font-family: Arial, sans-serif;
+    /* margin-top: 20px; */
+}
+
+/* Title styling */
+.statistics-title {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    color: #333;
+	text-align: center;
+}
+
+/* Statistics items container */
+.statistics-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Individual statistic item */
+.statistics-item {
+    background-color: white;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    flex-grow: 1;
+    margin: 0 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+/* Statistic item text */
+.statistics-item p:first-child {
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.statistics-item p:last-child {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .statistics-container {
+        flex-direction: column;
+    }
+
+    .statistics-item {
+        margin: 10px 0;
+        width: 100%;
+    }
+}

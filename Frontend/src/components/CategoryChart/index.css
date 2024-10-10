@@ -1,0 +1,123 @@
+/* .category-chart-container {
+  background-image: linear-gradient(to right, rgb(91, 166, 91), rgba(141, 186, 78, 0.033));
+  border: 1px solid rgb(12, 9, 9);
+  font-family: bree serif, "Times New Roman", Times, serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
+
+/* *{
+    border: 1px solid grey;
+} */
+
+/* Category Chart Container */
+.category-chart-container {
+  margin: 0 auto;
+  padding: 20px;
+  /* width: 100%; */
+  /* max-width: 900px; */
+  text-align: center;
+  background-color: #f9f9f9;
+  /* border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+/* Chart Title */
+.category-chart-container h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.category-chart-container h2 u {
+  text-decoration: none;
+  border-bottom: 2px solid #333;
+}
+
+.category-chart-container h2 b {
+  color: green;
+  font-weight: bold;
+}
+
+/* Responsive Container */
+.recharts-responsive-container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+}
+
+.recharts-wrapper {
+  width: 100%;
+  height: 300px;
+}
+
+/* Legend Styling */
+.recharts-legend-wrapper {
+  margin-top: 10px;
+  text-align: left;
+}
+
+.recharts-default-legend {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.recharts-legend-item {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.recharts-legend-item-text {
+  font-size: 14px;
+  color: #333;
+}
+
+/* Tooltip Styling */
+.recharts-tooltip-wrapper {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Colors for Legend Items */
+.legend-item-0 .recharts-legend-item-text {
+  color: #796DA2;
+}
+
+.legend-item-1 .recharts-legend-item-text {
+  color: #84921F;
+}
+
+.legend-item-2 .recharts-legend-item-text {
+  color: #BF6AFB;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .category-chart-container {
+    padding: 15px;
+  }
+
+  .category-chart-container h2 {
+    font-size: 20px;
+  }
+
+  .recharts-wrapper {
+    height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .category-chart-container h2 {
+    font-size: 18px;
+  }
+
+  .recharts-wrapper {
+    height: 200px;
+  }
+}
